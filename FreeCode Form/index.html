@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulário FreeCodeCamp</title>
+</head>
+
+<body>
+    
+    <h1 id='title'>Front-End Developer Form</h1>
+    <p id="description" hidden>Formulário Front-End</p>
+
+    <div id='form-div'>
+        <form id='survey-form' action=".">
+
+        <label id="name-label">
+            <h2 id='name-h2'>Name: <input id='name' placeholder='type your name' type="text" class='question-box' required></h2>
+        </label>
+        <label id="email-label">
+            <h2>Email: <input id='email' type="email" placeholder='type your email' class='question-box' required></h2>
+        </label>
+        <label id="number-label">
+            <h2>Age: <input  id='number' min="8" max="150" type="number" placeholder='type your age'></h2>
+        </label>
+        
+        <h2 id='dropdown-h2'>Career:</h2>
+        <select id='dropdown'>
+            <option>Junior</option>
+            <option>Mid-level</option>
+            <option>Senior</option>
+        </select>
+        
+        <h2>Experience:</h2>
+        <label for="experience"><input type="radio" id='experience' name="experience" value="1y"> 1 year</label>
+        <label for="experience"><input type="radio" id='experience' name="experience" value="1-2y"> 1-2 years</label>
+        <label for="experience"><input type="radio" id='experience' name="experience" value="2-3y"> 2-3 years</label>
+        <label for="experience"><input type="radio" id='experience' name="experience" value="3y+"> +3 years</label>
+
+        <h2>Technologies: </h2>
+        <label for="tech"><input type="checkbox" value='Angular'> Angular</label>
+        <label for="tech"><input type="checkbox" value='React'> React</label>
+        <label for="tech"><input type="checkbox" value='ReactNative'> ReactNative</label>
+        <label for="tech"><input type="checkbox" value='Vue'> Vue</label>
+        <label for="tech"><input type="checkbox" value='TypeScript'> TypeScript</label>
+        <label for="tech"><input type="checkbox" value='Others'> Others</label>
+
+        <h2>Talk more about you: </h2>
+        <textarea rows="5"></textarea>
+
+        <input type="submit" id='submit'>
+        </form>
+    </div>
+    
+</body>
+</html>

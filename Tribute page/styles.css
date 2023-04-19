@@ -1,0 +1,62 @@
+body {
+    background-color:gainsboro;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+span {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+p {
+    display: inline-block;
+    text-align: justify;
+    margin: 15px;
+    width: 45%;
+}
+
+#tribute-link {
+    display: inline-flex;
+    color: rgb(16, 17, 11);
+    padding-left: 13px;
+}
+
+#tribute-link:hover {
+    color: gainsboro;
+}
+
+#img-div {
+    width: 100%;
+    max-width: 100%;
+}
+
+#image {
+    display: block;
+    justify-self: center;
+    margin:  50px auto 10px auto;
+    max-width: 100%;
+}
+
+#title {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+#title-div {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+#title-box {
+    margin: auto;
+    width: 924px;
+    background-color: rgb(200, 201, 147);
+}
+
+#tribute-info-div {
+    width: 924px;
+    margin: 50px auto;
+    background-color: rgb(200, 201, 147);
+}
