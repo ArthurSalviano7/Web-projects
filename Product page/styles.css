@@ -20,26 +20,35 @@ hr {
     margin-left: 30px;
 }
 
+#main-section {
+  padding-top: 200px;
+}
+
 #main-section, #games-section, #contact-section {
     max-width: 100%;
 }
 
 #header {
+    display: block;
     position: fixed;
-    max-width: 100%; 
+    top: 0;
+    background-color: #171010;
+    width: 100%; 
+    z-index: 100;
 }
 
 #header-img {
     display: block;
-    width: 280px;
+    width: 150px;
     height: auto;
     margin: 30px auto;
 }
 
 #nav-bar ul{
+    overflow: hidden;
     text-align: center;
     padding:0px;
-    margin: 50px 0px 100px 0px;
+    margin: 30px 0px 10px 0px;
 }
 
 #nav-bar ul li{
